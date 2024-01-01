@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+body {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	margin:0;
+}
+
+.calculator{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:10px;
+	max-width:300px;
+	margin:auto;
+}
+button {
+	padding:10px;
+/* 	border:none; */
+	font-size:18px;
+	text-align:center;
+	cursor:pointer;
+}
+
+#input {
+	grid-column: span 4;
+	text-align: right;
+	padding: 10px;
+	font-size: 20px;
+	border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
